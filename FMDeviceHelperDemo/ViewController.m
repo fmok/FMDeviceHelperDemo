@@ -22,7 +22,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    //  获取电池电量 t
+    //  获取电池电量
     CGFloat batteryQuantit = [FMDeviceHelper getBatteryQuantity];
     NSLog(@"\n****** %f ******\n", batteryQuantit);
     
